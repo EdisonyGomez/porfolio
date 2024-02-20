@@ -1,3 +1,8 @@
-<section class="w-full mx-auto py-10 flex flex-col items-center ">
+---
+const {class: className, id } = Astro.props
+---
+<section id={id} 
+        class="min-w-fit max-w-screen-sm mx-auto py-10 
+              flex flex-col items-center  ">
     <slot />
 </section>
